@@ -1,0 +1,58 @@
+button {
+  visibility: visible;
+  margin: 8px;
+}
+
+#cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex;
+  border: solid 8px;
+  border-color: black;
+  max-width: 400px;
+  background-color: #5c4033;
+  color: white;
+  margin: 8px;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: center;
+  margin: 8px;
+}
+
+a {
+  margin: auto;
+  width: 100px;
+}
+
+#cardImg {
+  margin: 16px;
+  margin-bottom: 0;
+  max-width: 400px;
+}
+
+p {
+  font-family: Arial;
+  margin-left: 16px;
+  max-width: 400px;
+}
+
+details {
+  font-family: Arial;
+  margin-left: 16px;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  button {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #cardContainer {
+    max-width: 90%;
+  }
+}

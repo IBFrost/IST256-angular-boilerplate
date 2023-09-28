@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { callScripts } from '../app/scripts.js';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-test';
+  ngOnInit(): void {
+    callScripts();
+  }
 }
